@@ -52,11 +52,12 @@
               <CommandFlag>DefaultInvisible</CommandFlag>
               <CommandFlag>DynamicVisibility</CommandFlag>
           If you do not want an image next to your command, remove the Icon node /> -->
-      <Button guid="guidXlfTestPackageCmdSet" id="Command1Id" priority="0x0100" type="Button">
+      <Button guid="guidXlfTestPackageCmdSet" id="TrueCommand" priority="0x0100" type="Button">
         <Parent guid="guidXlfTestPackageCmdSet" id="MyMenuGroup" />
         <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
           <ButtonText>Say Hello World!</ButtonText>
+		  <CommandName>SayHelloWorld</CommandName>
         </Strings>
       </Button>
     </Buttons>
@@ -79,7 +80,7 @@
     <!-- This is the guid used to group the menu commands together -->
     <GuidSymbol name="guidXlfTestPackageCmdSet" value="{91d06191-1321-4a2d-8dbe-2be35bb3e606}">
       <IDSymbol name="MyMenuGroup" value="0x1020" />
-      <IDSymbol name="Command1Id" value="0x0100" />
+      <IDSymbol name="TrueCommand" value="0x0100" />
     </GuidSymbol>
 
     <GuidSymbol name="guidImages" value="{41063ceb-fa8d-455b-bfe8-146794d94872}" >

@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="Hello">
         <source>Hello!</source>
-        <target state="new">Hello!</target>
+        <target state="new">こんにちは！</target>
         <note />
       </trans-unit>
     </body>
